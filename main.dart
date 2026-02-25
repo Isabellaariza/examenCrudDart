@@ -21,10 +21,10 @@ void main() {
 
     switch (opcion) {
       case '1':
-        actualizarPelicula(cartelera);
+        agregarPelicula(cartelera);
       break;
       case '2':
-        actualizarPelicula(cartelera);
+        listarPeliculas(cartelera);
       break;
       case '3':
         actualizarPelicula(cartelera);
